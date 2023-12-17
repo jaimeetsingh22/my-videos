@@ -53,6 +53,7 @@ const MyCarousel = () => {
             showStatus={false}
             showThumbs={false}
             showArrows={false}
+            swipeable={false}
         >
             <Box w={"full"} h={'100vh'}>
                 <Image src={'https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'} alt='no internet'  h={'full'} w={'full'} objectFit={'cover'}    />
